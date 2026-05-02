@@ -1,0 +1,4 @@
+.firebase/
+.firebaserc.bak
+*.swp
+.DS_Store

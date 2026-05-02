@@ -1,0 +1,8 @@
+<svg viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MBA">
+  <circle cx="22" cy="22" r="21" fill="#0b2545"/>
+  <circle cx="22" cy="22" r="19.4" fill="none" stroke="#e8a23a" stroke-width="1"/>
+  <text x="22" y="29.5"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="22" font-weight="700"
+        fill="#e8a23a" text-anchor="middle">M</text>
+</svg>

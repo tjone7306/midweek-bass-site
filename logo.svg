@@ -1,0 +1,65 @@
+<svg viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Midweek Bass Anglers of Arizona — Established 1979">
+  <defs>
+    <path id="mba-top-arc" d="M 50,140 A 90,90 0 0 1 230,140" fill="none"/>
+    <path id="mba-bot-arc" d="M 56,156 A 84,84 0 0 0 224,156" fill="none"/>
+  </defs>
+
+  <!-- Disc -->
+  <circle cx="140" cy="140" r="138" fill="#0b2545"/>
+
+  <!-- Heavy gold outer ring -->
+  <circle cx="140" cy="140" r="132" fill="none" stroke="#e8a23a" stroke-width="3"/>
+
+  <!-- Inner thin ring -->
+  <circle cx="140" cy="140" r="118" fill="none" stroke="#e8a23a" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Top curved type -->
+  <text font-family="Georgia, 'Times New Roman', serif"
+        font-size="15.5" font-weight="700" letter-spacing="3.6" fill="#e8a23a">
+    <textPath href="#mba-top-arc" startOffset="50%" text-anchor="middle">MIDWEEK BASS ANGLERS</textPath>
+  </text>
+
+  <!-- Bottom curved type -->
+  <text font-family="Georgia, 'Times New Roman', serif"
+        font-size="13" font-weight="700" letter-spacing="6" fill="#e8a23a">
+    <textPath href="#mba-bot-arc" startOffset="50%" text-anchor="middle">ARIZONA</textPath>
+  </text>
+
+  <!-- Side diamond ornaments at the meridian -->
+  <g fill="#e8a23a">
+    <path d="M 28,140 l 4,-5 l 4,5 l -4,5 z"/>
+    <path d="M 244,140 l 4,-5 l 4,5 l -4,5 z"/>
+  </g>
+
+  <!-- Decorative divider above 1979 -->
+  <g stroke="#e8a23a" stroke-width="0.8" opacity="0.55">
+    <line x1="80" y1="116" x2="120" y2="116"/>
+    <line x1="160" y1="116" x2="200" y2="116"/>
+  </g>
+  <circle cx="140" cy="116" r="1.6" fill="#e8a23a"/>
+
+  <!-- "EST." -->
+  <text x="140" y="106"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="13" font-weight="700" letter-spacing="0.4em"
+        fill="#e8a23a" text-anchor="middle">EST.</text>
+
+  <!-- Big 1979 — focal -->
+  <text x="140" y="170"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="58" font-weight="700" letter-spacing="0.04em"
+        fill="#e8a23a" text-anchor="middle">1979</text>
+
+  <!-- Decorative divider below 1979 -->
+  <g stroke="#e8a23a" stroke-width="0.8" opacity="0.55">
+    <line x1="80" y1="190" x2="120" y2="190"/>
+    <line x1="160" y1="190" x2="200" y2="190"/>
+  </g>
+  <circle cx="140" cy="190" r="1.6" fill="#e8a23a"/>
+
+  <!-- "FORTY-SIX SEASONS" tagline -->
+  <text x="140" y="208"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="10" font-weight="600" letter-spacing="0.3em"
+        fill="#e8a23a" text-anchor="middle" opacity="0.85">FORTY-SIX SEASONS</text>
+</svg>
