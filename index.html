@@ -143,7 +143,9 @@
 </header>
 
 <section class="hero" style="position:relative;overflow:hidden">
-  <svg class="hero-sunburst" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;top:0;right:0;width:60%;height:100%;opacity:0.18;pointer-events:none;mix-blend-mode:screen">
+  <img src="/img/sunset-bass.jpg" alt="" aria-hidden="true" class="hero-photo" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;opacity:0.22;pointer-events:none;z-index:0;mix-blend-mode:luminosity">
+  <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,31,58,0.55) 0%,rgba(10,31,58,0.78) 60%,rgba(10,31,58,0.95) 100%);pointer-events:none;z-index:0"></div>
+  <svg class="hero-sunburst" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;top:0;right:0;width:60%;height:100%;opacity:0.18;pointer-events:none;mix-blend-mode:screen;z-index:1">
     <defs>
       <radialGradient id="sunCore" cx="50%" cy="50%" r="50%">
         <stop offset="0%" stop-color="#e8a23a" stop-opacity="0.8"/>
@@ -171,7 +173,7 @@
       <line x1="-80" y1="-205" x2="-120" y2="-310" opacity="0.5"/>
     </g>
   </svg>
-  <svg class="hero-mesa" viewBox="0 0 1440 120" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;bottom:60px;left:0;width:100%;height:80px;opacity:0.32;pointer-events:none">
+  <svg class="hero-mesa" viewBox="0 0 1440 120" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;bottom:60px;left:0;width:100%;height:80px;opacity:0.32;pointer-events:none;z-index:1">
     <path d="M0,120 L0,72 L60,72 L70,52 L130,52 L138,68 L210,68 L218,40 L260,40 L268,55 L295,55 L302,30 L355,30 L362,55 L420,55 L425,75 L500,75 L508,48 L545,48 L552,38 L600,38 L606,62 L680,62 L688,32 L735,32 L744,58 L815,58 L822,42 L885,42 L892,28 L935,28 L944,55 L1010,55 L1018,68 L1095,68 L1102,45 L1150,45 L1158,60 L1220,60 L1228,38 L1280,38 L1287,55 L1355,55 L1362,72 L1440,72 L1440,120 Z" fill="#0a1f3a"/>
     <g fill="#0a1f3a" opacity="0.8">
       <path d="M250,60 L254,46 L256,52 L259,40 L262,52 L264,46 L268,60 Z"/>
@@ -179,7 +181,7 @@
       <path d="M1180,68 L1184,52 L1186,58 L1189,46 L1192,58 L1194,52 L1198,68 Z"/>
     </g>
   </svg>
-  <div class="container">
+  <div class="container" style="position:relative;z-index:2">
     <div class="hero-grid">
       <div>
         <h1>Arizona's <em>premier</em> bass club.</h1>
